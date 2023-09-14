@@ -3,7 +3,7 @@
 const comidas = ['Sushi', 'Pollo con naranja', 'Gimbak', 'Lasaña', 'Lentejas', 'Pizza', 'Hamburguesa'];
 
 // Tipos de datos que admite los arrays
-const voucher = [20.5, true];
+const voucher = [20.5, true, '20 de mayo'];
 
 // Método de iteración
 for (let i = 0; i < comidas.length; i++) {
@@ -31,3 +31,8 @@ const mapRestaurantes = restaurantes.map((res) => {
 });
 
 console.log(mapRestaurantes);
+
+// Array forEach
+voucher.forEach((data) => {
+    console.log(`${data}`);
+});
