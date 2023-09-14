@@ -13,13 +13,6 @@ for (let i = 0; i < comidas.length; i++) {
 // Arrays bidimensionales
 const persona = ['Carlos', 'Urtedad', 20, ['cocinero', 'asistente']];
 
-// Array en Map
-const mapClientes = clientes.map((num) => {
-    return `${num} - id`;
-});
-
-console.log(mapClientes);
-
 // Arrays con Objetos
 const clientes = [
     { id: 1, name: 'Sara' },
@@ -29,3 +22,13 @@ const clientes = [
 ];
 
 console.log(clientes);
+
+// Array en Map
+
+const restaurantes = ['Burger King', 'Wendys', 'KFC', 'Mcdonalds', 'Taco Bell'];
+
+const mapClientes = clientes.map((res) => {
+    return `${res} - name of the restaurant`;
+});
+
+console.log(mapClientes);
