@@ -13,9 +13,19 @@ for (let i = 0; i < comidas.length; i++) {
 // Arrays bidimensionales
 const persona = ['Carlos', 'Urtedad', 20, ['cocinero', 'asistente']];
 
+// Array en Map
+const mapClientes = clientes.map((num) => {
+    return `${num} - id`;
+});
+
+console.log(mapClientes);
+
+// Arrays con Objetos
 const clientes = [
     { id: 1, name: 'Sara' },
     { id: 2, name: 'Tom' },
     { id: 3, name: 'Carl' },
     { id: 4, name: 'Juana' },
 ];
+
+console.log(clientes);
