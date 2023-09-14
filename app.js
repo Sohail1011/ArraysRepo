@@ -24,11 +24,10 @@ const clientes = [
 console.log(clientes);
 
 // Array en Map
-
 const restaurantes = ['Burger King', 'Wendys', 'KFC', 'Mcdonalds', 'Taco Bell'];
 
-const mapClientes = clientes.map((res) => {
+const mapRestaurantes = restaurantes.map((res) => {
     return `${res} - name of the restaurant`;
 });
 
-console.log(mapClientes);
+console.log(mapRestaurantes);
